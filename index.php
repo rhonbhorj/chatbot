@@ -157,6 +157,9 @@
         </div>
       </div>
 
+
+
+      
       <div id="inputArea">
         <input type="text" name="messages" id="userInput" placeholder="Please enter your message here" required />
         <input type="submit" id="send" value="Send" />

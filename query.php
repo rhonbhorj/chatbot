@@ -6,6 +6,7 @@ $conn = mysqli_connect("localhost", "root", "", "onlinebot");
 
 // If the connection is established successfully
 if ($conn) {
+    
     // Get the user's message from the request object and escape characters
     $user_messages = mysqli_real_escape_string($conn, $_POST['messageValue']);
 
