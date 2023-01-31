@@ -159,7 +159,7 @@
 
 
 
-      
+
       <div id="inputArea">
         <input type="text" name="messages" id="userInput" placeholder="Please enter your message here" required />
         <input type="submit" id="send" value="Send" />
@@ -172,7 +172,7 @@
       // create new request object. get user message
       let xhr = new XMLHttpRequest();
       var userMessage = document.querySelector("#userInput").value;
-
+/////ron
       // create html to hold user message.
       let userHtml =
         '<div class="userSection">' +
